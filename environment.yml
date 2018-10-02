@@ -1,7 +1,11 @@
-name: beakerx
+name: beakerx-jalview
 channels:
+  - bioconda
   - conda-forge
+  - defaults
 dependencies:
   - ipywidgets
   - beakerx
+  - jalview
+
 
